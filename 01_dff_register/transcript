@@ -1,17 +1,19 @@
 # ERROR: No extended dataflow license exists
-# vsim dff_tb 
-# Start time: 20:31:59 on Jun 10,2026
-# Loading work.dff_tb
-# Loading work.dff
+# vsim register_32bit_tb 
+# Start time: 20:54:54 on Jun 10,2026
+# Loading work.register_32bit_tb
+# Loading work.register_32bit
 add wave -position insertpoint  \
-sim:/dff_tb/clk \
-sim:/dff_tb/d \
-sim:/dff_tb/q \
-sim:/dff_tb/en \
-sim:/dff_tb/rst
+sim:/register_32bit_tb/clk \
+sim:/register_32bit_tb/d \
+sim:/register_32bit_tb/q \
+sim:/register_32bit_tb/en \
+sim:/register_32bit_tb/rst
 run -all
-# ** Note: $stop    : tb/dff_tb.v(51)
-#    Time: 125 ns  Iteration: 0  Instance: /dff_tb
-# Break in Module dff_tb at tb/dff_tb.v line 51
-# End time: 20:33:53 on Jun 10,2026, Elapsed time: 0:01:54
+# ** Note: $stop    : tb/register_32bit_tb.v(42)
+#    Time: 127 ns  Iteration: 0  Instance: /register_32bit_tb
+# Break in Module register_32bit_tb at tb/register_32bit_tb.v line 42
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 20:56:44 on Jun 10,2026, Elapsed time: 0:01:50
 # Errors: 0, Warnings: 0
