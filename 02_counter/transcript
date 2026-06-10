@@ -1,0 +1,15 @@
+# vsim counter_mod10_tb 
+# Start time: 22:34:40 on Jun 10,2026
+# Loading work.counter_mod10_tb
+# Loading work.counter_mod10
+add wave -position insertpoint  \
+sim:/counter_mod10_tb/clk \
+sim:/counter_mod10_tb/reset \
+sim:/counter_mod10_tb/en \
+sim:/counter_mod10_tb/count
+run -all
+# ** Note: $stop    : tb/counter_mod10_tb.v(39)
+#    Time: 292 ns  Iteration: 0  Instance: /counter_mod10_tb
+# Break in Module counter_mod10_tb at tb/counter_mod10_tb.v line 39
+# End time: 22:37:27 on Jun 10,2026, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 0
