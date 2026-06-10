@@ -22,10 +22,7 @@ This project implements basic sequential circuits in Verilog:
 
 | Module | Description |
 |---|---|
-| dff.v | Basic D Flip-Flop |
-| dff_en.v | D Flip-Flop with enable |
-| dff_en_reset.v | D Flip-Flop with reset and enable |
-| register_8bit.v | 8-bit register |
+| dff.v |D Flip-Flop with reset and enable |
 | register_32bit.v | 32-bit register |
 
 ## Expected Behavior
