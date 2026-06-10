@@ -1,0 +1,17 @@
+# ERROR: No extended dataflow license exists
+# vsim dff_tb 
+# Start time: 20:31:59 on Jun 10,2026
+# Loading work.dff_tb
+# Loading work.dff
+add wave -position insertpoint  \
+sim:/dff_tb/clk \
+sim:/dff_tb/d \
+sim:/dff_tb/q \
+sim:/dff_tb/en \
+sim:/dff_tb/rst
+run -all
+# ** Note: $stop    : tb/dff_tb.v(51)
+#    Time: 125 ns  Iteration: 0  Instance: /dff_tb
+# Break in Module dff_tb at tb/dff_tb.v line 51
+# End time: 20:33:53 on Jun 10,2026, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
