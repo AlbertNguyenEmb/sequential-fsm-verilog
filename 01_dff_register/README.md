@@ -3,10 +3,7 @@
 ## Objective
 
 This project implements basic sequential circuits in Verilog:
-- D Flip-Flop
-- D Flip-Flop with enable
 - D Flip-Flop with asynchronous reset and enable
-- 8-bit register
 - 32-bit register
 
 ## Key Concepts
